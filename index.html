@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="landingPageLabenu.js"></script>
+    <title>SeletivaLabenu</title>
+</head>
+
+<body> 
+    <main> 
+        <!--Cabeçalho da home page --> 
+        <section class="cabecalhoHome">
+
+        </header>
+            <div class="titulo"> Projeto Seletivo Labenu - Turma 2020</div>
+            <div class= "logoLabenu">
+                <img src="img/Labenu_logo.png" alt="Logo da empresa Labenu">            
+            </div> 
+        </section>
+    
+    
+    
+        <!--Sessão sobre - Labenu-->    
+    
+        <section>        
+            <div>            
+                <h2 class="mensagem">Reivente-se</h2>
+                <p>
+                    <i><b>Acreditamos na ideia de que é possível reinventar a educação. <br />De forma mais humana, inclusiva e criativa. Nosso foco é transformação de pessoas. <br />
+                    Nos preocupamos com cada aluno e cada aluna, e acreditamos no potencial de reinvenção de cada um.</b></i>
+                </p>
+                <p>
+                    <i><b>Este é o primeiro passo para uma jornada junto à Labenu.<br /> 
+                    Queremos criar a melhor experiência possível desde esse primeiro momento.</p></b></i>          
+            </div>
+        </section>
+    
+        <!--Sessão Cursos 2020 Labenu -->
+    
+        <h2 class="subtitulos">Turmas 2020</h2>
+    
+            <section class="cursos">            
+                <div>                
+                    <img src="img/paquete-interfaces-aplicaciones-transporte-publico_23-2148692616.jpg" alt="imagem de wireframe mobile.">
+                    <p>Mobile Frontend</p>
+                </div>
+    
+                <div>
+                    <img src="img/business-people-meeting.jpg" alt="imagem de pessoas analisando dados e métricas.">
+                    <p>Data Science</p>
+                </div> 
+                
+                <div>
+                    <img src="img/laptop-with-different-applications-installed.jpg" alt="imagem de computador referenciando a criação de página web.">
+                    <p>Web Full Stack</p>
+                </div>  
+            </section>      
+    
+    
+            <!--Sessão Cadastro -->
+    
+            <h2 class="subtitulos">Cadastre-se</h2>
+    
+            <section class="cadastro">           
+                
+                    <form action="" method="POST"></form>
+
+                    <!--O evento onblur destecta quando o usuário sai do perímetro do campo input.-->
+                    <!--Uosei o onfocus para detectar quando o usuário estiver dentro dos limites do campo email para que seja chamada a função redefinirEmail, possa refazer a verificação de o valor inserido pelo usuário ou continuado por este é inválido-->
+                        <fieldset>           
+                            <div class="form-group">                        
+                            <input type="email" placeholder="Informe seu email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email"/>
+                            <span id="error-email"></span>
+                          </div>
+                          <input type="submit" id="enviar"/>                                          
+                        </fieldset>
+                    </form>
+            </section>
+    
+            <!--Autoria do desenvolvimento -->
+    
+                <footer class="desenvolvimento">
+                    <p>Desenvolvido por: Laís Lopes</p>
+                    <p class="contatoDeva"><a href="mailto:lais.maasl@gmail.com">lais.maasl@gmail.com</a></p>
+                </footer> 
+            </section>
+
+
+    </main>    
+</body>
+
+</html>
