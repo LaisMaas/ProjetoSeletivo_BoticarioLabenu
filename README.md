@@ -2,7 +2,7 @@
 Landing page criada em HTML, CSS e JS com validação de form
 
 
-<h2>Project_GTF</h2>
+<h2>Project_Lading Page</h2>
 <h4>Releitura de uma das páginas de alerta de cursos, proposta pela Labenu em parceria com a Boticário</h4>
 
 
